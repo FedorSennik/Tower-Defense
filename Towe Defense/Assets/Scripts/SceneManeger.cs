@@ -7,6 +7,6 @@ public class SceneManeger : MonoBehaviour
 {
     public void SceneLoader()
     {
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene(1);
     }
 }
