@@ -9,4 +9,8 @@ public class SceneManeger : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void SceneExit()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
